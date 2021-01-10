@@ -1,0 +1,63 @@
+@import url("../assets/bootstrap/css/bootstrap.min.css");
+body {
+  margin: 0 2.6rem;
+}
+.mynavbar {
+  background-color: white !important;
+  font-weight: 500;
+  margin: 2rem 3rem 1rem 3rem;
+}
+.navbar__logo {
+  max-width: 5rem;
+  margin-right: 3rem;
+}
+.navbar__signinbutton {
+  margin-right: 1rem;
+  background-color: #f1f1f2 !important;
+  font-weight: 500;
+  width: 5rem;
+}
+.navbar__signupbutton {
+  font-weight: 500;
+  width: 5rem;
+  background-color: #f5d016 !important;
+}
+/* sectionone */
+.sectionone {
+  background-image: url(../assets/images/autumn-studio-zv3ckJKftC4-unsplash.jpg);
+  height: 75vh;
+  border-radius: 0.3rem;
+  background-size: cover;
+}
+
+.sectionone__col {
+  margin-top: 2rem;
+  height: 23rem !important;
+}
+.sectionone__col > .card {
+  height: 100%;
+  border-radius: 0.5rem;
+}
+.sectionone__col > .card > img {
+  width: 100%;
+  height: 22vw;
+  padding: 0.7rem;
+  border-radius: 1.2rem;
+  object-fit: cover;
+}
+.sectionone__col--body > h5 {
+  font-size: 13px;
+  margin-top: -1.2rem;
+  margin-bottom: -0.01rem;
+  color: grey;
+}
+.sectionone__col--body > p {
+  font-size: 18px;
+  padding-bottom: 4rem !important;
+  font-weight: 500;
+  margin: 0;
+}
+.sectiontwo {
+  height: 70vh;
+  margin-top: 1rem;
+}
