@@ -1,6 +1,15 @@
 @import url("../assets/bootstrap/css/bootstrap.min.css");
 body {
-  margin: 0 2.6rem;
+  margin: 0 2rem;
+  background-image: linear-gradient(
+    to bottom,
+    white,
+    #fcfcfc,
+    #f5eded,
+    #f3f0f0,
+    #f7f1f1,
+    white
+  );
 }
 .mynavbar {
   background-color: white !important;
@@ -57,7 +66,56 @@ body {
   font-weight: 500;
   margin: 0;
 }
+/* Section Two */
+/* .sectionbackground {
+  /* background-color: #FAFAFA; */
+/* margin: 0 -2.6rem; */
+/* width: 100% !important; */
+/* background-image: linear-gradient(to right, red, yellow); */
+/* } */
 .sectiontwo {
   height: 70vh;
   margin-top: 1rem;
+}
+.sectiontwo__col {
+  /* height: 60vh; */
+}
+.sectiontwo__col > .card {
+  height: 99vh;
+  border: none;
+}
+.sectiontwo__col > .card > img {
+  height: 50vh;
+  width: 100%;
+  object-fit: cover;
+}
+/* .sectiontwo__col--body>.card-title:hover{
+    transition: background-size .6s ease-out;
+    background: linear-gradient(var(--color-details),var(--color-details)) no-repeat left 130%/0 40%;
+} */
+.sectiontwo__col-body--author {
+  font-size: 15px;
+}
+.sectiontwo__col--body > p {
+  font-size: 14px;
+  font-weight: 500;
+}
+.sectiontwo__col--body > a {
+  background-color: #f1f1f2;
+  font-weight: 500;
+  text-align: center;
+  width: 6rem;
+  margin-bottom: 1rem;
+}
+.sectiontwo__col--body > .product {
+  margin-top: 4.3rem;
+}
+.sectiontwo__col--body > .interior {
+  margin-top: 1.1rem;
+}
+.sectiontwo__col--body > .story {
+  margin-top: 2.5rem;
+}
+.sectiontwo__col--body > a:hover {
+  background-color: #f5d016;
 }
